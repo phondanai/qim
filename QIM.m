@@ -63,7 +63,7 @@ end
 % delta = 8;
 % qim = QIM(delta);
 % 
-% x = randi([0 255], l);
+% x = randi([0 255], l, 1);
 
 % msg = qim.random_msg(l);
 % y = qim.embed(x, msg);
